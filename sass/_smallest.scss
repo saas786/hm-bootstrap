@@ -1,0 +1,66 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font: 100%/1.5 $georgia;
+  color: $neutral;
+  min-height: 800px;
+  
+  .lt-ie9 & {
+    min-width: 960px;
+  }
+}
+
+/* HEADINGS */
+
+h1, h2, h3, h4, h5 {
+  font-family: $helvetica;
+  color: $secondary;
+}
+
+h1 {
+	margin: 0 0 10px 0;
+
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 1;
+
+	color: $neutral;
+}
+
+/* PARAGRAPH */
+
+p {
+  font-family: $georgia;
+  font-size: 18px;
+  line-height: 1.6;
+  
+  margin-bottom: 15px;
+}
+
+/* HEADER & LOGO */
+
+/* RESPONSIVE IMAGES */
+
+img {
+  max-width: 100%; // Make images inherently responsive
+  height: auto; // Adds support for images whose dimensions are defined inline
+  vertical-align: middle;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+/* MAIN */
+
+/* FOOTER */
+
+/* BUTTON */
+
+.btn, a:visited.btn, button { 
+
+  &:hover, &:focus {
+  }
+}
