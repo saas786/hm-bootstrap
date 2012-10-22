@@ -175,7 +175,7 @@
 
 // Drop shadows
 @mixin box-shadow($shadow){
-  @include prefixer(box-shadow, $props);
+  @include prefixer(box-shadow, $shadow);
 }
 
 // Transitions
