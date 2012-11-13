@@ -8,10 +8,6 @@ body {
   font: 100%/1.5 $georgia;
   color: $neutral;
   min-height: 800px;
-  
-  .lt-ie9 & {
-    min-width: 960px;
-  }
 }
 
 /* HEADINGS */
@@ -51,6 +47,10 @@ img {
   vertical-align: middle;
   border: 0;
   -ms-interpolation-mode: bicubic;
+
+  .lt-ie9 & {
+    width: auto;
+  }
 }
 
 /* MAIN */
