@@ -2,8 +2,10 @@
 // @see http://paulirish.com/2009/markup-based-unobtrusive-comprehensive-dom-ready-execution/
 var APPNAME = {
   
-  methodName: function() {
-    
+  initSlider: function() {
+    $('.flexslider').flexslider({
+      animation: "slide"
+    });
   },
   
   // Initializers
@@ -16,9 +18,9 @@ var APPNAME = {
     }
   },
   
-  bodyId_or_className: {
+  has_slider: {
     init: function() { 
-
+      APPNAME.initSlider();
     },
     finalize: function() { 
       
