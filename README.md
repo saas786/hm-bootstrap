@@ -1,7 +1,7 @@
 Happy Medium Bootstrap
 ======================
 
-We're using this at Happy Medium to get started with client websites. To use it, just clone it into a new local git repo.
+We're using this at Happy Medium to get started with client websites. To use it, just fork it!
 
 Changelog
 ---------
