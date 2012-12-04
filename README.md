@@ -6,6 +6,10 @@ We're using this at Happy Medium to get started with client websites. To use it,
 Changelog
 ---------
 
+*Version 0.4*
+
+Added Flexslider as a default. Use it in almost every project! Removed unused SCSS variables.
+
 *Version 0.3*
 
 Added "width: auto" to responsive images, took away the unused min-width style. Added a bunch of meta tags.
